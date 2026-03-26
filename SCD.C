@@ -6,7 +6,7 @@ int main(){
     int scd;
     printf("enter the values for num1 and num2: \n");
     scanf("%d \n %d", &num1, &num2);
-
+ 
     for(int i = 2; i <= num1 && i <= num2; i++ ){
         if(num1 % i == 0 && num2 % 2 == 0){
             scd = 1;
@@ -19,4 +19,4 @@ int main(){
             printf("scd = %d", scd);
         }
     }
-}
+} 
