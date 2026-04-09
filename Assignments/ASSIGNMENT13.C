@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main () {
-    // Program to rpint reverse of the given number
+    // Program to print reverse of the given number
     int num, temp;
 
     printf("Enter a number: \n ");
